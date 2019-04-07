@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e496ea96-9456-4e58-8349-aea2289abfb6" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/AuthorsApi/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Books" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Books" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Books" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ExternalServicesConsumer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Traits/ExternalServicesConsumer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#31#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/AuthorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AuthorsApi/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/AuthorService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+              <folding>
+                <element signature="e#32#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseRESTController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BaseRESTController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseRESTService.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="77" column="87" selection-start-line="77" selection-start-column="87" selection-end-line="77" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <element signature="e#7#388#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/BookService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>composer</find>
+      <find>email</find>
+      <find>$app</find>
+      <find>CorsMiddleware</find>
+      <find>dele</find>
+      <find>function create(</find>
+      <find>create(</find>
+      <find>static function create(</find>
+      <find>__call</find>
+      <find>create</find>
+      <find>isClean</find>
+      <find>status</find>
+      <find>die</find>
+      <find>findOrFail(</find>
+      <find>trait</find>
+      <find>Author</find>
+      <find>entitys</find>
+      <find>private</find>
+      <find>authors</find>
+      <find>JsonResponse</find>
+      <find>author</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$router</replace>
+      <replace>Book</replace>
+      <replace>entities</replace>
+      <replace>protected</replace>
+      <replace>entity</replace>
+      <replace>Response</replace>
+      <replace>book</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/geotagging</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/geotagging/docker" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/geotagging/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/geotagging/docker/microservices/base/nginx/Dockerfile" />
+        <option value="$PROJECT_DIR$/geotagging/docker/microservices/base/php-fpm/Dockerfile" />
+        <option value="$PROJECT_DIR$/AuthorsApi/.env.example" />
+        <option value="$PROJECT_DIR$/AuthorsApi/.gitignore" />
+        <option value="$PROJECT_DIR$/AuthorsApi/database/migrations/2019_03_23_184338_create_authors_table.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3ed64437-a2c8-426d-80cd-be51fa6692a4/console.sql" />
+        <option value="$PROJECT_DIR$/AuthorsApi/app/User.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/bootstrap/app.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/app/Http/Controllers/Author.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/support/Traits/ForwardsCalls.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/database/Eloquent/Model.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/original_code/Microservices-with-Lumen_Books/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/original_code/Microservices-with-Lumen_Authors/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/.env" />
+        <option value="$PROJECT_DIR$/BooksApi/.gitignore" />
+        <option value="$PROJECT_DIR$/BooksApi/.env" />
+        <option value="$PROJECT_DIR$/BooksApi/database/migrations/2019_04_01_194030_create_books_table.php" />
+        <option value="$PROJECT_DIR$/BooksApi/database/database.sqlite" />
+        <option value="$PROJECT_DIR$/BooksApi/bootstrap/app.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/app/Author.php" />
+        <option value="$PROJECT_DIR$/BooksApi/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/BooksApi/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/BooksApi/app/Http/Controllers/Book.php" />
+        <option value="$PROJECT_DIR$/BooksApi/app/Book.php" />
+        <option value="$PROJECT_DIR$/BooksApi/routes/web.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/routes/web.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/.gitignore" />
+        <option value="$PROJECT_DIR$/AuthorsApi/app/Http/Controllers/AuthorController.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/original_code/Microservices-with-Lumen_Gateway/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/BooksApi/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/BooksApi/app/Http/Controllers/BookController.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/ApiGatewayController.php" />
+        <option value="$PROJECT_DIR$/AuthorsApi/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/bootstrap/app.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/AuthorService.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/routes/web.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/.env" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/config/services.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Services/AuthorService.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BaseRESTController.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/AuthorController.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Traits/ExternalServicesConsumer.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Services/BookService.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/flipbox/lumen-generator" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/queue" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/composer" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/broadcasting" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/classpreloader/classpreloader" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/encryption" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/hashing" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/auth" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/laravel/lumen-framework" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/AuthorsApi/vendor/dnoegel/php-xdg-base-dir" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1280" />
+    <option name="height" value="749" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Services" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Traits" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AuthorsApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AuthorsApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exceptions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fzaninotto" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fzaninotto" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="faker" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fzaninotto" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="faker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fzaninotto" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="faker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faker" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lumen-framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lumen-framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lumen-framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="try-outs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/original_code" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ApiGateway/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/ApiGateway/app/Services" />
+      <recent name="$PROJECT_DIR$/ApiGateway/app/Exceptions" />
+      <recent name="$PROJECT_DIR$/ApiGateway/app" />
+      <recent name="$PROJECT_DIR$/BooksApi/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ApiGateway/app/Services" />
+      <recent name="$PROJECT_DIR$/AuthorsApi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e496ea96-9456-4e58-8349-aea2289abfb6" name="Default" comment="" />
+      <created>1540722383847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540722383847</updated>
+      <workItem from="1540722388288" duration="2851000" />
+      <workItem from="1541535474015" duration="8137000" />
+      <workItem from="1541802194598" duration="1321000" />
+      <workItem from="1553362963312" duration="19696000" />
+      <workItem from="1553957604829" duration="7752000" />
+      <workItem from="1553966660842" duration="2706000" />
+      <workItem from="1554047360679" duration="6761000" />
+      <workItem from="1554150568068" duration="28748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="77972000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33113673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497488" visible="true" weight="0.24235474" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="right" id="Database" order="3" weight="0.25076452" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.50502515" side_tool="true" weight="0.27121213" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32840723" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/original_code/Microservices-with-Lumen_Authors/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="93" column="76" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/database/migrations/2019_04_01_194030_create_books_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/vendor/fzaninotto/faker/src/Faker/Generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="137" column="30" lean-forward="true" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/app/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ee1a3b73-f91f-425b-a710-feed96a326a0/schema/main/table/books">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/app/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original_code/Microservices-with-Lumen_Books/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="88" selection-start-line="88" selection-end-line="88" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/database/database.sqlite">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/ApiGatewayController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original_code/Microservices-with-Lumen_Gateway/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#30#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#30#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/vendor/illuminate/http/ResponseTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/vendor/laravel/lumen-framework/src/Http/ResponseFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/app/Http/Controllers/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original_code/Microservices-with-Lumen_Gateway/app/Traits/ConsumesExternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/vendor/laravel/lumen-framework/src/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="290" column="13" selection-start-line="290" selection-start-column="13" selection-end-line="290" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/vendor/illuminate/http/ResponseTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/vendor/illuminate/http/Concerns/InteractsWithInput.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="181" column="20" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/app/Http/Controllers/AuthorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/ExampleController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooksApi/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" selection-start-line="13" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BaseRESTController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="e#7#388#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Traits/ExternalServicesConsumer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#31#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/AuthorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/AuthorService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding>
+            <element signature="e#32#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/BookService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="77" column="87" selection-start-line="77" selection-start-column="87" selection-end-line="77" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
