@@ -65,11 +65,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding>
+                <element signature="e#40#71#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+              <folding>
+                <element signature="e#34#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,17 +113,17 @@
       <file leaf-file-name="BaseRESTController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BaseRESTController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="90">
+              <caret line="32" selection-start-line="32" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseRESTService.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseRESTService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="77" column="87" selection-start-line="77" selection-start-column="87" selection-end-line="77" selection-end-column="87" />
+            <state relative-caret-position="666">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -130,15 +145,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiGateway/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -166,17 +172,17 @@
       <find>entitys</find>
       <find>private</find>
       <find>authors</find>
-      <find>JsonResponse</find>
       <find>author</find>
+      <find>JsonResponse</find>
     </findStrings>
     <replaceStrings>
       <replace>$router</replace>
       <replace>Book</replace>
-      <replace>entities</replace>
       <replace>protected</replace>
-      <replace>entity</replace>
-      <replace>Response</replace>
       <replace>book</replace>
+      <replace>entity</replace>
+      <replace>entities</replace>
+      <replace>Response</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/geotagging</dir>
@@ -229,16 +235,16 @@
         <option value="$PROJECT_DIR$/ApiGateway/AuthorService.php" />
         <option value="$PROJECT_DIR$/ApiGateway/routes/web.php" />
         <option value="$PROJECT_DIR$/ApiGateway/.env" />
-        <option value="$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/ApiGateway/config/services.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Traits/ApiResponser.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Services/AuthorService.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BaseRESTController.php" />
-        <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/AuthorController.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Traits/ExternalServicesConsumer.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Services/BookService.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php" />
       </list>
     </option>
   </component>
@@ -385,6 +391,13 @@
               <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exceptions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ApiGateway" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -437,6 +450,26 @@
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AuthorsApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AuthorsApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AuthorsApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exceptions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AuthorsApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Traits" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
@@ -628,12 +661,12 @@
       <workItem from="1553957604829" duration="7752000" />
       <workItem from="1553966660842" duration="2706000" />
       <workItem from="1554047360679" duration="6761000" />
-      <workItem from="1554150568068" duration="28748000" />
+      <workItem from="1554150568068" duration="33428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77972000" />
+    <option name="totallyTimeSpent" value="82652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -644,8 +677,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32996634" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33113673" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497488" visible="true" weight="0.24235474" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33113673" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49497488" visible="true" weight="0.24235474" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="right" id="Database" order="3" weight="0.25076452" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -676,7 +709,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -829,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AuthorsApi/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
-          <folding>
-            <element signature="e#34#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BooksApi/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -900,16 +923,6 @@
     <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#34#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApiGateway/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -965,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BaseRESTController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApiGateway/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1013,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/AuthorService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1039,8 +1038,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="77" column="87" selection-start-line="77" selection-start-column="87" selection-end-line="77" selection-end-column="87" />
+        <state relative-caret-position="666">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BaseRESTController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="32" selection-start-line="32" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthorsApi/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="87" column="53" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="87" selection-end-column="53" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="e#40#71#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
