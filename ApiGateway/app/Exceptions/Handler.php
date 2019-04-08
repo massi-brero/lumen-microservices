@@ -78,7 +78,7 @@ class Handler extends ExceptionHandler
                 $code    = Response::HTTP_UNPROCESSABLE_ENTITY;
                 break;
             case $exception instanceof ClientException:
-                $message = $exception->getResponse()->getReasonPhrase();
+                $message = json_decode($exception->getResponse()->getBody()->getContents());
                 $code = $exception->getCode();
                 break;
             default:

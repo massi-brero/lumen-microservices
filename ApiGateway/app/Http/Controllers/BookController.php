@@ -32,7 +32,7 @@ class BookController extends BaseRESTController
      */
     public function save(Request $request): Response
     {
-        $this->authorService->get($request->author_id);
+       $this->authorService->get($request->author_id);
 
         return $this->successResponse(
             $this->microservice->save(

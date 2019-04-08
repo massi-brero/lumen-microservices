@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
                 <element signature="e#40#71#0#PHP" expanded="true" />
               </folding>
@@ -77,14 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+            <state relative-caret-position="71">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
               <folding>
                 <element signature="e#34#62#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiResponser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BooksApi/app/Traits/ApiResponser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -124,18 +133,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="666">
               <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApiGateway/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-              <folding>
-                <element signature="e#7#388#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -243,8 +240,8 @@
         <option value="$PROJECT_DIR$/ApiGateway/app/Traits/ExternalServicesConsumer.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Services/BookService.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Services/BaseRESTService.php" />
-        <option value="$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php" />
+        <option value="$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php" />
       </list>
     </option>
   </component>
@@ -514,6 +511,13 @@
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Traits" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BooksApi" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -661,12 +665,12 @@
       <workItem from="1553957604829" duration="7752000" />
       <workItem from="1553966660842" duration="2706000" />
       <workItem from="1554047360679" duration="6761000" />
-      <workItem from="1554150568068" duration="33428000" />
+      <workItem from="1554150568068" duration="33886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82652000" />
+    <option name="totallyTimeSpent" value="83110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -769,9 +773,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BooksApi/app/Traits/ApiResponser.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AuthorsApi/app/Author.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1060,22 +1061,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php">
+    <entry file="file://$PROJECT_DIR$/BooksApi/app/Traits/ApiResponser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
-          <folding>
-            <element signature="e#34#62#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApiGateway/app/Http/Controllers/BookController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
             <element signature="e#40#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApiGateway/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
