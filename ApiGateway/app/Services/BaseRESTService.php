@@ -17,6 +17,12 @@ class BaseRESTService
     protected $uri_prefix;
 
     /**
+     * The secret for consuming the microservice.
+     * @var string
+     */
+    protected $secret;
+
+    /**
      * Return all entities from the entity microservice.
      *
      * @return string
@@ -24,7 +30,7 @@ class BaseRESTService
      */
     public function getAll()
     {
-        return $this->request(Request::METHOD_GET, $this->getUriPrefix());
+        return $this->request(Request::METHOD_GET, $this->getUriPrefix(), null, null, $this);
     }
 
 
@@ -36,9 +42,9 @@ class BaseRESTService
      * @return string
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function save(array $requestData, string $code)
+    public function save(array $requestData)
     {
-        return $this->request(Request::METHOD_POST, $this->getUriPrefix(), $requestData);
+        return $this->request(Request::METHOD_POST, $this->getUriPrefix(), $requestData, null, $this);
     }
 
     /**
@@ -51,7 +57,7 @@ class BaseRESTService
      */
     public function update(array $requestData, int $id)
     {
-        return $this->request(Request::METHOD_PUT, $this->getUriPrefix() . '/' . $id, $requestData);
+        return $this->request(Request::METHOD_PUT, $this->getUriPrefix() . '/' . $id, $requestData, null, null, $this);
     }
 
     /**
@@ -63,7 +69,7 @@ class BaseRESTService
      */
     public function get(int $id)
     {
-        return $this->request(Request::METHOD_GET, $this->getUriPrefix() . '/' . $id);
+        return $this->request(Request::METHOD_GET, $this->getUriPrefix() . '/' . $id, null, null, $this);
     }
 
     /**
@@ -75,7 +81,7 @@ class BaseRESTService
      */
     public function delete(int $id)
     {
-        return $this->request(Request::METHOD_DELETE, $this->getUriPrefix() . '/' . $id);
+        return $this->request(Request::METHOD_DELETE, $this->getUriPrefix() . '/' . $id, null, null, $this);
     }
 
     /**
@@ -94,5 +100,19 @@ class BaseRESTService
         $this->uri_prefix = $uri_prefix;
     }
 
+    /**
+     * @return string
+     */
+    public function getSecret(): string
+    {
+        return $this->secret;
+    }
 
+    /**
+     * @param string $secret
+     */
+    public function setSecret(string $secret): void
+    {
+        $this->secret = $secret;
+    }
 }

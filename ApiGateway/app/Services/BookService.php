@@ -11,5 +11,6 @@ class BookService extends BaseRESTService
     {
         $this->setBaseUri(config('services.books.base_uri'));
         $this->setUriPrefix(config('services.books.prefix'));
+        $this->setSecret(config('services.books.secret'));
     }
 }

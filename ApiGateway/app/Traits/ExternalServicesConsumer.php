@@ -3,8 +3,10 @@
 namespace App\Traits;
 
 
+use App\Services\BaseRESTService;
 use function config;
 use GuzzleHttp\Client;
+use function var_dump;
 
 trait ExternalServicesConsumer
 {
@@ -15,15 +17,25 @@ trait ExternalServicesConsumer
      * @param string $method
      * @param string $uri
      * @param array $formParams
-     * @param $headers
+     * @param array $headers
+     * @param BaseRESTService|null $callingService
      * @return string
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function request(string $method, string $uri, array $formParams = [], $headers = []): string
+    public function request(string $method,
+                            string $uri,
+                            ?array $formParams,
+                            ?array $headers,
+                            ?BaseRESTService $callingService): string
     {
         $client = new Client([
             'base_uri' =>  $this->getBaseUri(),
         ]);
+
+        if (!is_null($callingService->getSecret()))
+        {
+            $headers['Authorization'] = $callingService->getSecret();
+        }
 
         $response = $client->request($method, $uri, [
             'form_params' => $formParams,

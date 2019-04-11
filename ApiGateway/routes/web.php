@@ -15,23 +15,27 @@ $router->get('/test', function () use ($router) {
     die('Base uri is: api' . '/v' . env('API_VERSION'));
 });
 
-$router->group(['prefix' => 'api' . '/v' . env('API_VERSION')], function () use ($router) {
-    $router->group(['prefix' => 'authors'], function () use ($router) {
-        $router->get('/', 'AuthorController@index');
-        $router->post('/', 'AuthorController@save');
-        $router->get('/{id:[0-9]+}', 'AuthorController@get');
-        $router->put('/{id:[0-9]+}', 'AuthorController@update');
-        $router->patch('/{id:[0-9]+}', 'AuthorController@update');
-        $router->delete('/{id:[0-9]+}', 'AuthorController@delete');
+$router->group(['middleware' => 'client.credentials'], function () use ($router) {
+
+    $router->group(['prefix' => 'api' . '/v' . env('API_VERSION')], function () use ($router) {
+        $router->group(['prefix' => 'authors'], function () use ($router) {
+            $router->get('/', 'AuthorController@index');
+            $router->post('/', 'AuthorController@save');
+            $router->get('/{id:[0-9]+}', 'AuthorController@get');
+            $router->put('/{id:[0-9]+}', 'AuthorController@update');
+            $router->patch('/{id:[0-9]+}', 'AuthorController@update');
+            $router->delete('/{id:[0-9]+}', 'AuthorController@delete');
+        });
+
+        $router->group(['prefix' => 'books'], function () use ($router) {
+            $router->get('/', 'BookController@index');
+            $router->post('/', 'BookController@save');
+            $router->get('/{id:[0-9]+}', 'BookController@get');
+            $router->put('/{id:[0-9]+}', 'BookController@update');
+            $router->patch('/{id:[0-9]+}', 'BookController@update');
+            $router->delete('/{id:[0-9]+}', 'BookController@delete');
+        });
     });
 
-    $router->group(['prefix' => 'books'], function () use ($router) {
-        $router->get('/', 'BookController@index');
-        $router->post('/', 'BookController@save');
-        $router->get('/{id:[0-9]+}', 'BookController@get');
-        $router->put('/{id:[0-9]+}', 'BookController@update');
-        $router->patch('/{id:[0-9]+}', 'BookController@update');
-        $router->delete('/{id:[0-9]+}', 'BookController@delete');
-    });
 });
 
