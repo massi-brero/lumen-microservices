@@ -26,7 +26,7 @@ trait ExternalServicesConsumer
                             string $uri,
                             ?array $formParams,
                             ?array $headers,
-                            ?BaseRESTService $callingService): string
+                            BaseRESTService $callingService): string
     {
         $client = new Client([
             'base_uri' =>  $this->getBaseUri(),

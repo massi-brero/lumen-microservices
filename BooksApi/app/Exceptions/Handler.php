@@ -75,13 +75,15 @@ class Handler extends ExceptionHandler
                 $code    = Response::HTTP_UNPROCESSABLE_ENTITY;
                 break;
             default:
-                if (env('APP_DEBUG', false))
-                {
-                    return parent::render($request, $exception);
+                if (!empty(env('APP_DEBUG'))) {
+                    $message = $exception->getMessage();
                 }
-
-                $message = 'Unxpected error- Try later.';
-                $code    = Response::HTTP_UNPROCESSABLE_ENTITY;
+                else
+                {
+                    $message = "Internal Error.please try again later.";
+                }
+                $code = Response::HTTP_INTERNAL_SERVER_ERROR;
+                break;
         }
 
         return $this->errorResponse($message, $code);

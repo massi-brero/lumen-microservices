@@ -57,7 +57,7 @@ class BaseRESTService
      */
     public function update(array $requestData, int $id)
     {
-        return $this->request(Request::METHOD_PUT, $this->getUriPrefix() . '/' . $id, $requestData, null, null, $this);
+        return $this->request(Request::METHOD_PUT, $this->getUriPrefix() . '/' . $id, $requestData, null, $this);
     }
 
     /**

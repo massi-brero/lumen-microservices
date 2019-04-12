@@ -64,11 +64,11 @@ class Handler extends ExceptionHandler
                 $code    = Response::HTTP_NOT_FOUND;
                 break;
             case $exception instanceof AuthorizationException:
-                $message = $exception->getMessage();
+                $message = $this->getErrorMessage($exception);
                 $code    = Response::HTTP_UNAUTHORIZED;
                 break;
             case $exception instanceof AuthenticationException:
-                $message = $exception->getMessage();
+                $message = $this->getErrorMessage($exception);
                 $code    = Response::HTTP_FORBIDDEN;
                 break;
             case $exception instanceof ValidationException:
@@ -78,7 +78,7 @@ class Handler extends ExceptionHandler
                 $code    = Response::HTTP_UNPROCESSABLE_ENTITY;
                 break;
             case $exception instanceof ClientException:
-                $message = json_decode($exception->getResponse()->getBody()->getContents());
+                $message = $this->getErrorMessage($exception);
                 $code = $exception->getCode();
                 break;
             default:
@@ -93,5 +93,11 @@ class Handler extends ExceptionHandler
         }
 
         return $this->errorResponse($message, $code);
+    }
+
+    private function  getErrorMessage(\Exception $ex)
+    {
+        $json = json_decode($ex->getMessage());
+        return $json->error ?? Response::$statusTexts[$ex->getCode()];
     }
 }
